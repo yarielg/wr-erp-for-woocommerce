@@ -1,0 +1,103 @@
+/*ICONS*/
+.wrerp_administration{
+    background-image:url(../images/utiles/management.png)!important;
+}
+
+.wrerp_sales_ar{
+    background-image:url(../images/utiles/sale.png)!important;
+}
+
+.wrerp_purchasing_ap{
+    background-image:url(../images/utiles/goods.png)!important;
+}
+
+.wrerp_business_partners{
+    background-image:url(../images/utiles/team.png)!important;
+}
+
+.wrerp_inventory{
+    background-image:url(../images/utiles/storage.png) !important;
+}
+
+.wrerp_delete{
+    background:url(../images/utiles/clear.png) no-repeat center center !important;
+}
+
+.wrerp_print{
+    background-image:url(../images/utiles/print.png)!important;
+}
+
+.wrerp_pdf{
+    background-image:url(../images/utiles/pdf-file.png)!important;
+}
+
+.wrerp_add{
+    background-image:url(../images/utiles/add.png)!important;
+}
+
+.wrerp_products{
+    background-image:url(../images/utiles/rgb.png)!important;
+}
+
+.wrerp_documents{
+    background-image:url(../images/utiles/file.png)!important;
+}
+
+.wrerp_search{
+    background-image:url(../images/utiles/search.png)!important;
+}
+
+.wrerp_menu_item{
+    background-image:url(../images/utiles/archive.png)!important;
+}
+
+.wrerp_next{
+    background-image:url(../images/utiles/right-arrow.png)!important;
+}
+
+.wrerp_previous{
+    background-image:url(../images/utiles/left-arrow.png)!important;
+}
+
+.wrerp_disabled{
+    background-color: lightgrey;
+}
+
+/*Panel title*/
+.wrerp_panel_title span.x-panel-header-text{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/*mENU iTEM*/
+a.x-menu-item:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+.wrerp_west_panel a.x-menu-item img,.wrerp_west_panel a.x-menu-item span.x-menu-item-text{
+    margin-left: 10px;
+}
+
+/*Change the order of wordpress menu left bar*/
+#adminmenuwrap{
+    z-index: 9000 !important;
+}
+#wpadminbar{
+    z-index: 9001 !important;
+}
+
+/*Disabled rows*/
+.wrerp_disabled_rows{
+    background-color: lightgrey !important;
+}
+
+/* Window over all */
+/*
+.wrerp_window{
+    z-index: 100000 !important;
+}
+
+.wrerp_window_dialog{
+    z-index: 100001 !important;
+}*/

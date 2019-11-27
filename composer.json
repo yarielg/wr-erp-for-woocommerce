@@ -1,0 +1,16 @@
+{
+    "name": "gordi/wr_erp_for_woocommerce",
+    "authors": [
+        {
+            "name": "Yariel Gordillo",
+            "email": "yariel.gordillo@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": { "Wrerp\\Inc\\": "./inc"
+
+        }
+    }
+}

@@ -1,0 +1,7 @@
+-- Crear los estados (win insertar, win mostrar), por lo que solo se va a imprimir cuando haya un doc abierto y que ese en estado
+de mostrar.
+-- Tambien tratar de posicionar las ventanas para que la app tenga  una mejor experiencia de usuario.
+-- Crear el CRUD de los doc(update)
+
+IDEAS.
+-- C    rear Open list item en los sales order y otros reportes.
