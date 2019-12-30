@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b2e1241-946f-42c5-8823-e891337d9b91" name="Default Changelist" comment="" />
+    <list default="true" id="0b2e1241-946f-42c5-8823-e891337d9b91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/sales/win_quotation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/sales/win_quotation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/toolbar_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/toolbar_main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/Base/Activate.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Base/Activate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/Base/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Base/Pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/Controller/QuotationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/Controller/QuotationsController.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -21,9 +32,10 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1SwAI4pj7009morH2tGIRbUD59q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/utiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../laravel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,12 +92,27 @@
       <workItem from="1574429188695" duration="12485000" />
       <workItem from="1574451254658" duration="1891000" />
       <workItem from="1574710621410" duration="5323000" />
-      <workItem from="1574781295124" duration="3218000" />
+      <workItem from="1574781295124" duration="3960000" />
+      <workItem from="1574886026103" duration="11499000" />
+      <workItem from="1576092385444" duration="590000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>D:\wamp\www\test-integration</wordpressPath>

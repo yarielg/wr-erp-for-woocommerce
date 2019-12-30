@@ -101,3 +101,8 @@ a.x-menu-item:hover{
 .wrerp_window_dialog{
     z-index: 100001 !important;
 }*/
+
+/*General Style for text type*/
+input[type = text]{
+  min-height: 15px !important;
+}

@@ -13,7 +13,7 @@ class Pages{
     public function register(){
 
         add_action('admin_menu', function(){
-            add_menu_page('WR ERP', 'WR ERP', 'manage_options', 'wrerp_main', array($this,'products') , WRERP_PLUGIN_URL. 'assets/images/price-tag.png',110);
+            add_menu_page('WR ERP', 'WR ERP', 'manage_options', 'wrerp_main', array($this,'dashboard') ,'',110);
         });
 
         add_action('admin_menu',function(){

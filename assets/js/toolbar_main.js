@@ -58,7 +58,7 @@ let wrerp_main_next_btn = new Ext.Button({
     scale: 'large',
     handler: function () {
         let win = Wrerp.Main.wrerp_doc_active;
-        if(win != null){
+        if(win != null && win.doc_num != -1){
             Ext.Ajax.request({
                 url: parameters.ajax_url,
                 method: 'POST',
@@ -93,7 +93,7 @@ let wrerp_main_previous_btn = new Ext.Button({
     scale: 'large',
     handler: function () {
         let win = Wrerp.Main.wrerp_doc_active;
-        if(win != null){
+        if(win != null && win.doc_num != -1){
             Ext.Ajax.request({
                 url: parameters.ajax_url,
                 method: 'POST',

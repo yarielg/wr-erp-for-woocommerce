@@ -186,7 +186,7 @@ Wrerp.Sales.winQuotation= Ext.extend(Ext.Window, {
             fieldLabel: 'No.',
             disabled:true,
             emptyText: _this.doc_num,
-            width: 100
+            width: 110
         });
 
         this.tfStatus = new Ext.form.TextField({
@@ -194,7 +194,7 @@ Wrerp.Sales.winQuotation= Ext.extend(Ext.Window, {
             fieldLabel: 'Status',
             disabled:true,
             emptyText: 'New',
-            width: 100
+            width: 110
         });
 
         this.tfPostingDate = new Ext.form.TextField({
@@ -202,7 +202,7 @@ Wrerp.Sales.winQuotation= Ext.extend(Ext.Window, {
             fieldLabel: 'Posting Date',
             disabled:true,
             emptyText: new Date().toISOString().slice(0,10),
-            width: 100
+            width: 110
         });
 
         this.fpDates = new Ext.form.FormPanel({
@@ -324,7 +324,7 @@ Wrerp.Sales.winQuotation= Ext.extend(Ext.Window, {
 
         //Win buttons
         this.btncreateUpdate = new Ext.Button({
-            text:_this.doc_state != 1 ? 'Update': 'Create',
+            text: (_this.doc_state != 1) ? 'Update': 'Create',
             handler: function(){
                 if(_this.doc_state != 1){
                     _this.updateDoc();
@@ -336,7 +336,6 @@ Wrerp.Sales.winQuotation= Ext.extend(Ext.Window, {
         //Default component properties
         Wrerp.Sales.winQuotation.superclass.constructor.apply(this, [{
             title: _this.title,
-            //modal: true,
             layout: 'border',
             y:178,
             x:265,

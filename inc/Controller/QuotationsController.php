@@ -52,7 +52,7 @@ class QuotationsController
         global $wpdb;
         $ids = $wpdb->get_results("SELECT id FROM $wpdb->prefix" . "wrerp_qut ORDER BY id DESC", ARRAY_A);
 
-        echo json_encode($ids[0]);
+        echo count($ids) > 0 ? json_encode($ids[0]) : json_encode(array(id => 0));
         wp_die();
     }
 

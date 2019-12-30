@@ -29,7 +29,6 @@ class Activate{
 
         $sql2 = "CREATE TABLE $table_name2 (
           id mediumint(9) NOT NULL AUTO_INCREMENT,
-          item_id int(11) NOT NULL,
           item_id int(11) NOT NULL DEFAULT '0',
           doc_num int(11) NOT NULL,
           doc_type int(11) NOT NULL,
